@@ -1,0 +1,1 @@
+player setPos [getPos LHD select 0, getPos LHD select 1, getPos LHD select 2];
