@@ -180,13 +180,13 @@ class Params {
 		title="    Type of Advanced Vehicle"; 
 		values[]={ 1,2,3,4,5,6,7 }; 
 		texts[]={
-		"MH-6J Littlebird",
-		"UH-1Y Venom",
-		"CH-47F",
-		"Merlin HC3",
-		"Lynx Wildcat",
-		"MV-22",
-		"UH60M Black Hawk"
+		"UH-1N Gunship",
+		"CH-53 Sea Stallion",
+		"CH-46 Sea Knight",
+		"MH-6 Little Bird",
+		"RAH-6 Angry Bird",
+		"UH-1N Gunship TOW",
+		"Sa330 Puma"
 				}; 
 		default=2; 
 		code = ""; 
@@ -194,50 +194,50 @@ class Params {
 	class INS_CarType1 { 
 		title="    First Setup of Cars - 2pt."; 
 		values[]={ 1,2,3,4,5,6,7,8,9 }; 
-		texts[]={ "M1151 HMMWV 50cal",			
-		"Jackal GL",
-		"Jackal 50cal",
-		"HMMWV (M2) - Woodland Camo",
-		"Land Rover SF 50cal, GL",
-		"BAF Land Rover unarmed",
-		"Armored SUV minigun",
-		"SUV unarmed",
-		"BAF PMC SUV unarmed",
+		texts[]={ "Pinzgauer",			
+		"Pinzgauer SF",
+		"Iveco M250 Open",
+		"Hummer M2",
+		"PinzGauer 6X6 AA gun",
+		"ATV",
+		"Hummer M240",
+		"Hummer Mk19",
+		"Hummer",
 				}; 
-			default=7; 
+			default=2; 
 			code = ""; 
 	};
 	class INS_CarType2 { 
 		title="    Second Setup of Cars - 2pt."; 
 		values[]={ 1,2,3,4,5,6,7,8,9 }; 
-		texts[]={ "HMMWV m249, GL",
-		"Jackal GL",
-		"Jackal 50cal",
-		"HMMWV (Mk19) - Wooldland Camo",
-		"Land Rover SF 50cal, GL",
-		"BAF Land Rover unarmed",
-		"Armored SUV minigun",
-		"SUV unarmed",
-		"BAF PMC SUV unarmed",	
+		texts[]={ "Pinzgauer",			
+		"Pinzgauer SF",
+		"Iveco M250 Open",
+		"Hummer M2",
+		"PinzGauer 6X6 AA gun",
+		"ATV",
+		"Hummer M240",
+		"Hummer Mk19",
+		"Hummer",	
 		 }; 
-		default=2; 
+		default=5; 
 		code = ""; 
 	};
 	class INS_ATVType1 { 
 		title="    Third Setup of Cars - 5pt(lite)."; 
 		values[]={ 1,2,3,4,5,6,7,8,9,10 }; 
-		texts[]={ "ATV's",			
-		"M1151 HMMWV 50cal",
-		"HMMWV m249, GL",
-		"Jackal GL",
-		"Jackal 50cal",
-		"BAF Land Rover unarmed",
-		"Mountin Bike",
-		"SUV unarmed",
-		"HMMWV (M2) - Woodland Camo",	
-		"Pickup",
+		texts[]={ "ATV",			
+		"Pinzgauer",			
+		"Pinzgauer SF",
+		"Iveco M250 Open",
+		"Hummer M2",
+		"PinzGauer 6X6 AA gun",
+		"ATV",
+		"Hummer M240",
+		"Hummer Mk19",
+		"Hummer",	
 			}; 
-		default=3; 
+		default=7; 
 		code = ""; 
 	};
 	class eastVehicleNum { 	
@@ -291,7 +291,7 @@ class Params {
 		title="    Hour"; 
 		values[]={ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}; 
 		texts[]={ "1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"}; 
-		default=12; 
+		default=4; 
 		code = ""; 
 	}; 
 	class Minute { 

@@ -39,61 +39,7 @@ while {alive stuffbox} do {
 	stuffbox addWeaponCargo ["Laserdesignator", _amountForSquads];
 	stuffbox addMagazineCargo ["Laserbatteries", _amountAmmo];
 
-	//M14
-	stuffbox addWeaponCargo ["M14_EP1", _amountForSquads];
-	stuffbox addWeaponCargo ["ACE_M14_ACOG", _amountWeapon];
-
-	stuffbox addWeaponCargo ["M16A2", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_m16a2_scope", _amountWeapon];
-	stuffbox addWeaponCargo ["M16A2GL", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_m16a2gl_scope", _amountWeapon];
-
-
-	stuffbox addWeaponCargo ["ACE_AS50", _amountWeapon];
-	stuffbox addWeaponCargo ["PMC_AS50_scoped", _amountWeapon];
-	stuffbox addWeaponCargo ["PMC_AS50_TWS", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M109", _amountWeapon];
-	stuffbox addWeaponCargo ["BAF_LRR_scoped", _amountWeapon];
-	stuffbox addWeaponCargo ["BAF_LRR_scoped_W", _amountWeapon];
-	stuffbox addWeaponCargo ["m107", _amountWeapon];
-	stuffbox addWeaponCargo ["m107_TWS_EP1", _amountWeapon];
-	stuffbox addWeaponCargo ["M24_des_EP1", _amountWeapon];
-
-	stuffbox addWeaponCargo ["m16a4", _amountWeapon];
-	stuffbox addWeaponCargo ["m16a4", _amountWeapon];
-	stuffbox addWeaponCargo ["m16a4_acg", _amountWeapon];
-	stuffbox addWeaponCargo ["M16A4_GL", _amountWeapon];
-	stuffbox addWeaponCargo ["M4A1_Aim_camo", _amountWeapon];
-	stuffbox addWeaponCargo ["M4A1_AIM_SD_camo", _amountWeapon];
-	stuffbox addWeaponCargo ["M110_TWS_EP1", _amountWeapon];
-	stuffbox addWeaponCargo ["SCAR_H_LNG_Sniper", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_TAC50", _amountWeapon];
-	stuffbox addWeaponCargo ["m8_holo_sd", _amountWeapon];
-	stuffbox addWeaponCargo ["M79_EP1", _amountWeapon];
-	stuffbox addWeaponCargo ["M4A1", _amountWeapon];
-	stuffbox addWeaponCargo ["M4A1_Aim", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4A1_RCO_GL", _amountWeapon];
-	stuffbox addWeaponCargo ["M4A1_HWS_GL_SD_Camo", _amountWeapon];
-	stuffbox addWeaponCargo ["M4A1_HWS_GL_camo", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4A1_HWS_GL_SD_Camo_UP", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4A1_GL_SD", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4A1_Aim_SD", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4A1_AIM_GL_UP", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4A1_AIM_GL_SD_UP", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4_RCO_GL", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4_GL", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4_Eotech_GL", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4_Eotech", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4_C", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4_AIM_GL", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4_Aim", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4_ACOG", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M16A4_Iron", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M16A4_CCO_GL", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M16A4_ACG_GL_UP", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4A1_Eotech", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4A1_GL", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M4A1_ACOG", _amountWeapon];
+	//M4
 	stuffbox addWeaponCargo ["ACE_SOC_M4A1", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_SOC_M4A1_Aim", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_SOC_M4A1_Eotech", _amountWeapon];
@@ -103,9 +49,11 @@ while {alive stuffbox} do {
 	stuffbox addWeaponCargo ["ACE_SOC_M4A1_GL_AIMPOINT", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_SOC_M4A1_GL_EOTECH", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_SOC_M4A1_SHORTDOT", _amountWeapon];
-	stuffbox addWeaponCargo ["M4A3_CCO_EP1", _amountWeapon];
-	stuffbox addWeaponCargo ["M4A3_RCO_GL_EP1", _amountWeapon];
-
+	stuffbox addWeaponCargo ["ACE_SOC_M4A1_RCO_GL", _amountWeapon];
+	stuffbox addWeaponCargo ["ACE_SOC_M4A1_SD_9", _amountWeapon];
+	stuffbox addWeaponCargo ["ACE_SOC_M4A1_TWS", _amountWeapon];
+	stuffbox addWeaponCargo ["ACE_SOC_M4A1_EOT_SD_F", _amountWeapon];
+	
 	//HK family
 	stuffbox addWeaponCargo ["ACE_HK416_D14_COMPM3", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_HK416_D14_COMPM3_M320", _amountWeapon];
@@ -116,68 +64,26 @@ while {alive stuffbox} do {
 	stuffbox addWeaponCargo ["ACE_HK416_D10_COMPM3_SD", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_HK416_D10_SD", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_HK416_D14", _amountWeapon];
-
-	//SCAR family
-	stuffbox addWeaponCargo ["SCAR_L_CQC_EGLM_Holo", _amountWeapon];
-	stuffbox addWeaponCargo ["SCAR_L_STD_EGLM_RCO", _amountWeapon];
-	stuffbox addWeaponCargo ["SCAR_L_CQC", _amountWeapon];
-	stuffbox addWeaponCargo ["SCAR_L_CQC_Holo", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_SCAR_H_STD_Spect", _amountWeapon];
-	stuffbox addWeaponCargo ["SCAR_H_STD_EGLM_Spect", _amountWeapon];
-	stuffbox addWeaponCargo ["SCAR_H_CQC_CCO", _amountWeapon];
-
-	//L85 family
-	stuffbox addWeaponCargo ["BAF_L85A2_RIS_ACOG", _amountWeapon];
-	stuffbox addWeaponCargo ["BAF_L85A2_RIS_Holo", _amountWeapon];
-	stuffbox addWeaponCargo ["BAF_L85A2_RIS_SUSAT", _amountWeapon];
-	stuffbox addWeaponCargo ["BAF_L85A2_UGL_ACOG", _amountWeapon];
-	stuffbox addWeaponCargo ["BAF_L85A2_UGL_Holo", _amountWeapon];
-	stuffbox addWeaponCargo ["BAF_L85A2_UGL_SUSAT", _amountWeapon];
-
-	//G36 family
-	stuffbox addWeaponCargo ["G36a_camo", _amountWeapon];
-
-	//M8 family
-	stuffbox addWeaponCargo ["m8_carbine", _amountWeapon];
-
-
-	//Czech weapons
-	stuffbox addWeaponCargo ["Sa58P_EP1", _amountWeapon];
-
-
-	//G3 family
-	stuffbox addWeaponCargo ["ACE_G3A3_RSAS", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_G3A3", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_G3SG1", _amountWeapon]; 
-
-	//MGs
-	stuffbox addWeaponCargo ["ACE_M27_IAR", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_M27_IAR_ACOG", _amountWeapon];
-	stuffbox addWeaponCargo ["M240", _amountForSquads];
-	stuffbox addWeaponCargo ["m240_scoped_EP1", _amountForSquads];
-	stuffbox addWeaponCargo ["M249_EP1", _amountForSquads];
+	
+		//MGs
+	stuffbox addWeaponCargo ["ACE_M249_AIM", _amountForSquads];
 	stuffbox addWeaponCargo ["ACE_M249_PIP_ACOG", _amountForSquads];
-	stuffbox addWeaponCargo ["M60A4_EP1", _amountForSquads];
 	stuffbox addWeaponCargo ["Mk_48_DES_EP1", _amountForSquads];
 	stuffbox addWeaponCargo ["ACE_M60", _amountForSquads];
-
-	//Snipers and DMRs
-	stuffbox addWeaponCargo ["BAF_L86A2_ACOG", _amountForSquads];
-	stuffbox addWeaponCargo ["ACE_Mk12mod1", _amountForSquads];
-	stuffbox addWeaponCargo ["DMR", _amountForSquads];
-	stuffbox addWeaponCargo ["ACE_M110", _amountForSquads];
-
-	//MISC guns
-	//fermers dolls
-	stuffbox addWeaponCargo ["M1014", _amountWeapon];
+	
+		//Shotguns
 	stuffbox addWeaponCargo ["AA12_PMC", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_M1014_Eotech", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_SPAS12", _amountWeapon];
-	stuffbox addMagazineCargo ["8Rnd_B_Beneli_74Slug", _amountAmmo];
-	stuffbox addMagazineCargo ["8Rnd_B_Beneli_Pellets", _amountAmmo];
-	stuffbox addMagazineCargo ["ACE_8Rnd_12Ga_Buck00", _amountAmmo];
-	stuffbox addMagazineCargo ["ACE_8Rnd_12Ga_Slug", _amountAmmo];
-	stuffbox addWeaponCargo ["ACE_M3A1", _amountWeapon];
+
+	//Snipers and DMRs
+	stuffbox addWeaponCargo ["ACE_AS50", _amountForSquads];
+	stuffbox addWeaponCargo ["ACE_Mk12mod1", _amountForSquads];
+	stuffbox addWeaponCargo ["ACE_M109", _amountForSquads];
+	stuffbox addWeaponCargo ["ACE_M110", _amountForSquads];
+	stuffbox addWeaponCargo ["ACE_TAC50", _amountForSquads];
+	stuffbox addWeaponCargo ["M24_des_EP1", _amountForSquads];
+	
 
 	//Launchers
 	stuffbox addWeaponCargo ["SMAW", _amountForSquads];
@@ -195,107 +101,57 @@ while {alive stuffbox} do {
 	if (Var_acre == 1) then { stuffbox addWeaponCargo ["ACRE_PRC119", _amountForSquads]; };
 
 	//Rucks
-	stuffbox addWeaponCargo ["ACE_Rucksack_RD90", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_RD91", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_RD92", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_RD54", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_RD99", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_EAST", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_EAST_Medic", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_AssaultPack_BAF", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Backpack_TT", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Backpack_FL", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Backpack_US", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Backpack_CivAssault", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_ALICE_Backpack", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_BackPack_ACR_MTP", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_BackPack_ACR_DDPM", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_BackPack_ACR_DPM", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_BackPack_ACR_TT", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_BackPack_ACR_FL", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_BackPack_ACR", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Coyote_Pack_Black", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Coyote_Pack", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_FAST_PackEDC_ACU", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_FAST_PackEDC", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_CharliePack_ACU_Medic", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_CharliePack_ACU", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_CharliePack_WMARPAT", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_CharliePack", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_VTAC_RUSH72_FT_MEDIC", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_VTAC_RUSH72_TT_MEDIC", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_VTAC_RUSH72_ACU", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_VTAC_RUSH72", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_MOLLE_DMARPAT_Medic", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_MOLLE_WMARPAT_Medic", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_MOLLE_ACU_Medic", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_MOLLE_Brown_Medic", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_MOLLE_Green_Medic", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_MOLLE_WMARPAT", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_MOLLE_ACU", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_MOLLE_Wood", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_MOLLE_Brown", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_Rucksack_MOLLE_Green", _amountWeapon];
+	stuffbox addWeaponCargo ["ACE_Coyote_Pack", _amountWeapon];
+	stuffbox addWeaponCargo ["ACE_Coyote_Pack_Black", _amountWeapon];
+	stuffbox addWeaponCargo ["ACE_Coyote_Pack_Flora", _amountWeapon];
+	stuffbox addWeaponCargo ["ACE_Coyote_Pack_Multicam", _amountWeapon];
+	stuffbox addWeaponCargo ["ACE_Coyote_Pack_Wood", _amountWeapon];
+
 
 	//pistols
 	stuffbox addWeaponCargo ["Colt1911", _amountWeapon];
-	stuffbox addWeaponCargo ["M9", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_P226", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_L9A1", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_Flaregun", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_Glock18", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_MugLite", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_P8", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_TT", _amountWeapon];
+
 	stuffbox addWeaponCargo ["ACE_USP", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_USPSD", _amountWeapon];
-	stuffbox addWeaponCargo ["revolver_gold_EP1", _amountWeapon];
-	stuffbox addMagazineCargo ["ACE_13Rnd_9x19_L9A1", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_SSGreen_FG", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_SSRed_FG", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_SSWhite_FG", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_SSYellow_FG", _amountAmmo];
 	stuffbox addMagazineCargo ["17Rnd_9x19_glock17", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_33Rnd_9x19_G18", _amountAmmo];
-	stuffbox addMagazineCargo ["ACE_15Rnd_9x19_P8", _amountAmmo];
-	stuffbox addMagazineCargo ["ACE_8Rnd_762x25_B_Tokarev", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_12Rnd_45ACP_USP", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_12Rnd_45ACP_USPSD", _amountAmmo];
-	stuffbox addMagazineCargo ["6Rnd_45ACP", _amountAmmo];
+
 
 	//Mini smg
-	stuffbox addWeaponCargo ["M9SD", _amountWeapon];
-	stuffbox addWeaponCargo ["Sa61_EP1", _amountWeapon];
-	stuffbox addWeaponCargo ["UZI_EP1", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_KAC_PDW", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_MP5A4", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_MP5A5", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_MP5SD", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_MP7", _amountWeapon];
-	stuffbox addWeaponCargo ["ACE_MP7_RSAS", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_UMP45", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_UMP45_AIM", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_UMP45_AIM_SD", _amountWeapon];
 	stuffbox addWeaponCargo ["ACE_UMP45_SD", _amountWeapon];
-	stuffbox addMagazineCargo ["ACE_15Rnd_9x19_S_M9", _amountAmmo];
-	stuffbox addMagazineCargo ["20Rnd_B_765x17_Ball", _amountAmmo];
-	stuffbox addMagazineCargo ["ACE_30Rnd_9x19_S_UZI", _amountAmmo];
-	stuffbox addMagazineCargo ["ACE_30Rnd_6x35_B_PDW", _amountAmmo];
-	stuffbox addMagazineCargo ["30Rnd_9x19_MP5SD", _amountAmmo];
-	stuffbox addMagazineCargo ["ACE_30Rnd_9x19_S_MP5", _amountAmmo];
-	stuffbox addMagazineCargo ["ACE_40Rnd_B_46x30_MP7", _amountAmmo];
+	stuffbox addMagazineCargo ["ACE_25Rnd_1143x23_B_UMP45", _amountAmmo];
+	stuffbox addMagazineCargo ["ACE_25Rnd_1143x23_S_UMP45", _amountAmmo];
 
 
 	//MISC amountAmmo
 
 
 	stuffbox addMagazineCargo ["ACE_5Rnd_25x59_HEDP_Barrett", _amountAmmo];  
-	stuffbox addMagazineCargo ["ACE_5Rnd_86x70_T_L115A1", _amountAmmo];  
-	stuffbox addMagazineCargo ["ACE_10Rnd_127x99_Raufoss_m107", _amountAmmo];  
-	stuffbox addMagazineCargo ["ACE_10Rnd_127x99_T_m107", _amountAmmo];  
+	stuffbox addMagazineCargo ["ACE_5Rnd_127x99_B_TAC50", _amountAmmo];  
 	stuffbox addMagazineCargo ["ACE_5Rnd_762x51_T_M24", _amountAmmo];  
 	stuffbox addMagazineCargo ["5Rnd_127x99_as50", _amountAmmo]; 
-  
+
+	stuffbox addMagazineCargo ["ACE_30Rnd_556x45_S_Stanag", _amountAmmo];
+	stuffbox addMagazineCargo ["ACE_8Rnd_12Ga_Buck00", _amountAmmo];
+	stuffbox addMagazineCargo ["ACE_8Rnd_12Ga_Slug", _amountAmmo];
+	
 	stuffbox addMagazineCargo ["ACE_Bandage", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_Morphine", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_Epinephrine", _amountAmmo];
@@ -364,24 +220,14 @@ while {alive stuffbox} do {
 	stuffbox addMagazineCargo ["ACE_30Rnd_556x45_SB_S_Stanag", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_30Rnd_556x45_SB_Stanag", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_30Rnd_556x45_T_Stanag", _amountAmmo];
-	stuffbox addMagazineCargo ["20Rnd_556x45_Stanag", _amountAmmo];
+	stuffbox addMagazineCargo ["ACE_20Rnd_762x51_T_SCAR", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_5Rnd_127x99_B_TAC50", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_5Rnd_127x99_S_TAC50", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_5Rnd_127x99_T_TAC50", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_20Rnd_762x51_S_M110", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_20Rnd_762x51_SB_M110", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_20Rnd_762x51_T_M110", _amountAmmo];
-	stuffbox addMagazineCargo ["20Rnd_762x51_DMR", _amountAmmo];
-	stuffbox addMagazineCargo ["ACE_20Rnd_762x51_B_M14", _amountAmmo];
-	stuffbox addMagazineCargo ["ACE_20Rnd_762x51_T_DMR", _amountAmmo];
-	stuffbox addMagazineCargo ["10x_303", _amountAmmo];
-	stuffbox addMagazineCargo ["10Rnd_127x99_m107", _amountAmmo];
 	stuffbox addMagazineCargo ["200Rnd_556x45_L110A1", _amountAmmo];
-	stuffbox addMagazineCargo ["5Rnd_86x70_L115A1", _amountAmmo];
-	stuffbox addMagazineCargo ["100Rnd_762x54_PK", _amountAmmo];
-	stuffbox addMagazineCargo ["10Rnd_762x54_SVD", _amountAmmo];
-	stuffbox addMagazineCargo ["8Rnd_9x18_Makarov", _amountAmmo];
-	stuffbox addMagazineCargo ["30Rnd_9x19_UZI", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_AT13TB", _amountAmmo];
 	stuffbox addMagazineCargo ["SMAW_HEDP", _amountAmmo];
 	stuffbox addMagazineCargo ["SMAW_HEAA", _amountAmmo];
@@ -397,7 +243,6 @@ while {alive stuffbox} do {
 	stuffbox addMagazineCargo ["100Rnd_762x51_M240", _amountAmmo];
 	stuffbox addMagazineCargo ["100Rnd_556x45_M249", _amountAmmo];
 	stuffbox addMagazineCargo ["200Rnd_556x45_M249", _amountAmmo];
-	stuffbox addMagazineCargo ["20Rnd_762x51_B_SCAR", _amountAmmo];
 	stuffbox addMagazineCargo ["PipeBomb", _amountAmmo];
 	stuffbox addMagazineCargo ["15Rnd_9x19_M9", _amountAmmo];
 	stuffbox addMagazineCargo ["7Rnd_45ACP_1911", _amountAmmo];
@@ -418,7 +263,7 @@ while {alive stuffbox} do {
 	stuffbox addMagazineCargo ["ACE_BB2847", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_Battery_Rangefinder", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_Flashbang", _amountAmmo];
-	stuffbox addMagazineCargo ["ACE_20Rnd_762x51_SB_SCAR", _amountAmmo];
+
 	//m203
 	stuffbox addMagazineCargo ["ACE_HuntIR_M203", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_1Rnd_HE_M203", _amountAmmo];
@@ -439,14 +284,6 @@ while {alive stuffbox} do {
 	stuffbox addMagazineCargo ["ACE_DM31_M", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_BBETTY_M", _amountAmmo];
 
-	stuffbox addMagazineCargo ["ACE_25Rnd_1143x23_B_UMP45", _amountAmmo];
-	stuffbox addMagazineCargo ["ACE_10Rnd_762x39_B_SKS", _amountAmmo];
-	stuffbox addMagazineCargo ["64Rnd_9x19_Bizon", _amountAmmo];
-	stuffbox addMagazineCargo ["64Rnd_9x19_SD_Bizon", _amountAmmo];
-	stuffbox addMagazineCargo ["ACE_64Rnd_9x19_S_Bizon", _amountAmmo];
-	stuffbox addMagazineCargo ["10Rnd_9x39_SP5_VSS", _amountAmmo];
-	stuffbox addMagazineCargo ["20Rnd_9x39_SP5_VSS", _amountAmmo];
-	stuffbox addMagazineCargo ["ACE_30Rnd_1143x23_B_M3", _amountAmmo];
 	stuffbox addMagazineCargo ["20Rnd_B_AA12_74Slug", _amountAmmo];
 	stuffbox addMagazineCargo ["20Rnd_B_AA12_HE", _amountAmmo];
 	stuffbox addMagazineCargo ["20Rnd_B_AA12_Pellets", _amountAmmo];
@@ -458,12 +295,7 @@ while {alive stuffbox} do {
 	stuffbox addMagazineCargo ["ACE_20Rnd_762x51_SB_HK417", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_20Rnd_762x51_T_G3", _amountAmmo];
 	stuffbox addMagazineCargo ["ACE_20Rnd_762x51_B_G3", _amountAmmo];
-	stuffbox addMagazineCargo ["1Rnd_HE_GP25", _amountAmmo];
-	stuffbox addMagazineCargo ["30Rnd_545x39_AK", _amountAmmo];
-	stuffbox addMagazineCargo ["75Rnd_545x39_RPK", _amountAmmo];
-	stuffbox addMagazineCargo ["30Rnd_556x45_G36", _amountAmmo];
-	stuffbox addMagazineCargo ["ACE_30Rnd_762x39_T_SA58", _amountAmmo];
-	stuffbox addMagazineCargo ["30Rnd_762x39_SA58", _amountAmmo];
+
 	
 	// Wait the duration of _refreshTime
 	sleep _refreshTime;

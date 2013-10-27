@@ -36,7 +36,7 @@
 #define ALERTTIME 180
 #define westPlayerStrings	["Hitman111","Hitman112","Hitman113","Hitman114","Hitman115",\
 							"Hitman121","Hitman122","Hitman123","Hitman124","Hitman125","Hitman126","Hitman127","Hitman128","Hitman129","Hitman120",\
-							"Hitman131","Hitman132","Hitman133","Hitman134","Hitman135",\
+							"Hitman131","Hitman132","Hitman133","Hitman134","Hitman135","Hitman136","Hitman137","Hitman138","Hitman123","Hitman130",\
 							"Hitman141","Hitman142","Hitman143","Hitman144","Hitman145","Hitman146","Hitman147","Hitman148","Hitman149","Hitman140",\
 							"Hitman151","Hitman152","Hitman153","Hitman154","Hitman155",\
 							"Hitman161","Hitman162","Hitman163","Hitman164","Hitman165"]
